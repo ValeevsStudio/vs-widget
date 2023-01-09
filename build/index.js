@@ -1,6 +1,6 @@
 /*!
  * 
- *   @valeevsstudio/test-widget v0.0.5
+ *   @valeevsstudio/test-widget v0.0.6
  *   https://github.com/ValeevsStudio/vs-widget
  *
  *   Copyright (c) Valeev Bulat (https://github.com/ValeevsStudio/vs-widget) and project contributors.
