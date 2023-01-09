@@ -1,6 +1,6 @@
 {
   "name": "@valeevsstudio/test-widget",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ValeevsStudio widget",
   "main": "build/index.js",
   "scripts": {
