@@ -3,7 +3,7 @@ name: Publish
 on:
   push:
     branches:
-      - packages
+      - releases
     paths-ignore:
       - README.md
       - .gitignore
@@ -51,6 +51,8 @@ jobs:
 
       - name: npm publish
         run: |
+          @valeevsstudio:registry=https://npm.pkg.github.com/valeevsstudio
+          always-auth=true
           npm config set //npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN 
           npm run trypublish
         env:
